@@ -1,17 +1,18 @@
 # School_District_Analysis
 
 ## Overview of the Project
-For this part of the Challenge, write a report that summarizes your updated analysis and compares it with the results from the module.
+This project is to help Maria, a chief data scientist for a city school district, who was tasked with preparing all standard test data for analysis, reporting and presentation to provide insights about performance trends and patterns. The school board found some acdemic dishonesty in the students grades in this report, and they wanted Maria to update this report to uphold state-testing standards. 
 
-Overview of the school district analysis: Explain the purpose of this analysis.
+We used panda in Python to help Maria audit this report. In the new report, we replaced the reading and Maths score of 9th Grade of Thomas High School to NaN. This change affected some of the results that were previously presented, with details listed below.
 
 ## Results: 
-Using bulleted lists and images of DataFrames as support, address the following questions.
 
-- How is the district summary affected?
+## The School District Summary
   - average score not affted because NA sore were not calculated
   - 
-- How is the school summary affected?
+## The school summary 
+
+## Thomas High School VS other Schools
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 - How does replacing the ninth-grade scores affect the following:
   - Math and reading scores by grade
