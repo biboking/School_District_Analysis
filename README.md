@@ -8,11 +8,23 @@ We used panda in Python to help Maria audit this report. In the new report, we r
 ## Results: 
 
 ## The School District Summary
+
+- Updated Summary
 ![districtsummaryafter](challenge_district_summary_after.png)
-  - average score not affted because NA sore were not calculated
+
+- Previous Summary
+![districtsummarybefore](challenge_district_summary_before.png)
+ 
+ - We can see from the two tables that the updated district summary has a slightly drop for Math, reading and overall passing rate. The Math passing rate dropped from 75.0% to 74.8%. The reading passing rate dropped from 85.8% to 85.7%. The overall passing rate dropped from 65.2% to 64.9%.
   - 
 ## The school summary 
+- Previous school Summary
+![schoolsummarybefore](challenge_per_school_summary_before.png)
+
+- New School Summary
 ![schoolsummaryafter](challenge_per_school_summary_after.png)
+
+- We can see from the comparison that Thomas High School's (THS) reading and math passing percentages had altered significantly after we took out the  (THS)'s 9th grade's scores
 
 ## Thomas High School VS other Schools
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
