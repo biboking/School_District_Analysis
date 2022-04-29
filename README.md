@@ -8,9 +8,11 @@ We used panda in Python to help Maria audit this report. In the new report, we r
 ## Results: 
 
 ## The School District Summary
+![districtsummaryafter](challenge_district_summary_after.png)
   - average score not affted because NA sore were not calculated
   - 
 ## The school summary 
+![schoolsummaryafter](challenge_per_school_summary_after.png)
 
 ## Thomas High School VS other Schools
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
