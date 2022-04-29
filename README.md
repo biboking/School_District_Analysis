@@ -18,7 +18,7 @@ We used panda in Python to help Maria audit this report. In the new report, we r
  - We can see from the two tables that the updated district summary has a slightly drop for Math, reading and overall passing rate. The Math passing rate dropped from 75.0% to 74.8%. The reading passing rate dropped from 85.8% to 85.7%. The overall passing rate dropped from 65.2% to 64.9%.
   - 
 ## The school summary 
-- Previous school Summary
+- Previous school Summary-Tail 5 schools
 ![schoolsummarybefore](challenge_per_school_summary_before.png)
 
 - New School Summary
