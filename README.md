@@ -27,6 +27,7 @@ We used panda in Python to help Maria audit this report. In the new report, we r
 
 ### School Performance Comparison
 - Thomas High School is still in the Top 5 Schools
+
 Top 5 School Before the Audit
 
 ![top 5 before](Challenge_Top_5_school_before.png)
