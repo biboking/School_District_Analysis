@@ -26,9 +26,14 @@ We used panda in Python to help Maria audit this report. In the new report, we r
 - We can see from the comparison that all other schools' data was the same as before except Thomas High School's (THS). The overall reading and math passing rate of THS plummeted after we omitted the THS's 9th grade's scores. The math passing rate of THS decreased to 66.91%. The reading passing rate of THS dropped 69.66%. Thus, the overall passing dropped to 65.07%. The drop percentage was about 39%. Although when we calculated the 10th to 12th grades' math and reading scores seperately, the performances of THS was still pretty good compared with those of other schools, we could not tell the extent of dishonesty in the performance of TH 9th grade.
 
 ### School Performance Comparison
-- Thomas High School is no longer in the Top 5 Schools
+- Thomas High School is still in the Top 5 Schools
+Top 5 School Before the Audit
 ![top 5 before](Challenge_Top_5_school_before.png)
-- When we took off the 9th grade's scores from THS, the THS will no longer be in the top 5 schools in terms of academic performance. But when we calculate the scores from 10th to 12th grade seperatly, THS is still in the Top 5 list.  
+
+Top 5 School after the Audi
+![top 5 After](Challenge_Top_5_school_after.png)
+
+- We can see from the comparison that if we just ignored the THS 9th grade students numbers and theirs scores completely and only calculate the 10th to 12th grade students' performances, THS is still in the top 5 schools in terms of academic performance. The math passing rate just fell from 93.27% to 93.19%. The reading passing rate fell from 97.31% to 97.02%. Thus the overall passing rate fell from 90.95% to 90.63%. 
 
 
 ### Other affect after score replacement:
@@ -40,11 +45,9 @@ We used panda in Python to help Maria audit this report. In the new report, we r
 
 ## Summary: 
 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-
-1. The replacement of the scores to NaN for the ninth grade of Thomas High School(THS) led to a decrease in the passing student number. 
-2. While the total student number did not change, the percentage for math, reading and overall passing rate decreased for both Thomas High School and the overall school district. 
-3. Thomas High School would no longer be among within the Top 5 School in acdemic performance if the 9th grade's scores were taken away. But they would still be in the top 5 if we only calculate their students' performances from grade 10 to 12.
-4. The replacement affected the results of "scores by school spending", "scores by school size" and "scores by school types" based on our analysis above. The influence level depended on if we included 9th grade students number of Thomas High School in the total students count. 
+1. The replacement of the scores to NaN for the ninth grade of Thomas High School(THS) led to a decrease in the district passing student number. 
+2. While the total student number did not change, the percentage for math, reading and overall passing rate decreased for overall school district. 
+3. Thomas High School would would still be in the top 5 if we only calculate their students' performances from grade 10 to 12. However, they will no longer be among within the Top 5 School in acdemic performance if the 9th grade's scores were taken away, based on the overall district summary with its overall passing rate at around 65%.
+4. The replacement has small affects to the results of "scores by school spending", "scores by school size" and "scores by school types" based on our analysis above. Because THS's students' number is not too much, compared to the whole district student number. However, it will influences the data in the catergories that THS belongs to, such as the "scores by school spending" at $631 to $645 range, and the charter type performance in "scores by school type".
 5. The replacement had very little impact on "Scores by Grade" because it only changed the 9th grade's scores of Thomas High School, but nothing else changed in this dataframe. 
 
