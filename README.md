@@ -28,9 +28,11 @@ We used panda in Python to help Maria audit this report. In the new report, we r
 ### School Performance Comparison
 - Thomas High School is still in the Top 5 Schools
 Top 5 School Before the Audit
+
 ![top 5 before](Challenge_Top_5_school_before.png)
 
 Top 5 School after the Audi
+
 ![top 5 After](Challenge_Top_5_school_after.png)
 
 - We can see from the comparison that if we just ignored the THS 9th grade students numbers and theirs scores completely and only calculate the 10th to 12th grade students' performances, THS is still in the top 5 schools in terms of academic performance. The math passing rate just fell from 93.27% to 93.19%. The reading passing rate fell from 97.31% to 97.02%. Thus the overall passing rate fell from 90.95% to 90.63%. 
