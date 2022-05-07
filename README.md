@@ -27,15 +27,14 @@ We used panda in Python to help Maria audit this report. In the new report, we r
 - From the comparison, we can see from the comparison that all other schools' data was the same as before except Thomas High School(THS). The overall reading and math passing rate of THS plummeted after we omitted the THS's 9th-grade scores. The math passing rate of THS decreased to 66.91%. The reading passing rate of THS dropped to 69.66%. Thus, the overall passing dropped to 65.07%. The drop percentage was about 39%. Although when we calculated the 10th to 12th grades' math and reading scores separately, the performances of THS was still pretty good compared with those of other schools, we could not tell the extent of dishonesty in THS 9th grade.
 
 ### School Performance Comparison
-- Thomas High School is still in the Top 5 Schools
 
 - Top 5 Schools Before the replacement in the Module
 
-- ![top 5 before](Challenge_Top_5_school_before.png)
+![top 5 before](Challenge_Top_5_school_before.png)
 
 - Top 5 Schools after the replacement in the Challenge
 
-- ![top 5 After](Challenge_Top_5_school_after.png)
+![top 5 After](Challenge_Top_5_school_after.png)
 
 - We can see from the comparison that if we just ignored the THS 9th grade student number and their scores completely and only calculated the 10th to 12th grade students' performances, THS is still in the top 5 schools in terms of academic performance. The math passing rate just fell from 93.27% to 93.19%. The reading passing rate fell from 97.31% to 97.02%. Thus, the whole passing rate fell from 90.95% to 90.63%. 
 
