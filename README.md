@@ -41,10 +41,10 @@ We used panda in Python to help Maria audit this report. In the new report, we r
 
 
 ### Other changes after score replacement:
-    - Math and reading scores by grade were not affected too much except that all 9th-grade scores of Thomas High School were now NaN.
-  - Scores by school spending would be slightly influenced in the passing percentage under expenditures between $631 to $645. Because THS fell in this category and the 9th-grade scores replacement will affect the overall passing rate in this spending range. However, after replacing the THS performance with only 10th to 12th students' performances, the general data was close to the previous report.
-  - Similarly, Scores by school size would be affected in the "Medium (1000-1999)" category, as this was the school size range for THS. But if we also only counted students of 10th to 12th grade of THS. This effect is tiny.
-  - Scores by school type would be affected a little because THS was a Charter School. But since the performance gap between Charter schools and district schools was huge, the overall scores and passing rate of Charter Schools would always be higher than District schools.
+- Math and reading scores by grade were not affected too much except that all 9th-grade scores of Thomas High School were now NaN.
+- Scores by school spending would be slightly influenced in the passing percentage under expenditures between $631 to $645. Because THS fell in this category and the 9th-grade scores replacement will affect the overall passing rate in this spending range. However, after replacing the THS performance with only 10th to 12th students' performances, the general data was close to the previous report.
+- Similarly, Scores by school size would be affected in the "Medium (1000-1999)" category, as this was the school size range for THS. But if we also only counted students of 10th to 12th grade of THS. This effect is tiny.
+- Scores by school type would be affected a little because THS was a Charter School. But since the performance gap between Charter schools and district schools was huge, the overall scores and passing rate of Charter Schools would always be higher than District schools.
 
 
 ## Summary: 
