@@ -19,7 +19,7 @@ We used panda in Python to help Maria audit this report. In the new report, we r
 ![districtsummarybefore](challenge_district_summary_before.png)
  
  - We can see from the two tables that the updated district summary has a slight drop in Math, reading, and overall passing rate. The Math passing rate dropped from 75.0% to 74.8%. The reading passing rate dropped from 85.8% to 85.7%. Finally, the overall passing rate dropped from 65.2% to 64.9%. This change was caused obviously, by replacing the Thomas High School 9th Grades' scores with NaN.
-  - 
+
 ### The school summary 
 - New School Summary
 - ![schoolsummaryafter](challenge_per_school_summary_after.png)
@@ -49,8 +49,8 @@ We used panda in Python to help Maria audit this report. In the new report, we r
 ## Summary: 
 
 1. The replacement of the scores to NaN for the ninth grade of THS led to a decrease in the district passing student number. 
-2. While the total student number did not change, the percentage for math, reading and the overall passing rate decreased for overall school district. 
-3. Thomas High School was still in the top 5 when we only calculated their students' performances from grade 10 to 12. However, they will no longer be among within the Top 5 School in academic performance if we included their 9th grade students in their total student number. This would gave them an overall passing rate at around 65%, as shown in the district summary above.
-4. The replacement has small affects to the results of "scores by school spending", "scores by school size" and "scores by school types" based on our analysis above. Because THS's students' number is not too much, compared to the whole district student number. However, it will influences the data in the categories that THS belongs to, such as the "scores by school spending" at $631 to $645 range, and the charter type performance in "scores by school type".
-5. The replacement had very little impact on "Scores by Grade" because it only changed the 9th grade's scores of Thomas High School, but nothing else changed in this DataFrame. 
+2. While the total student number did not change, the percentage for math, reading, and the overall passing rate decreased for the whole school district. 
+3. Thomas High School was still in the top 5 when we only calculated their students' performances from grade 10 to 12. However, they will no longer be among the Top 5 Schools in academic performance if we include their 9th-grade students in their total student number. As shown in the district summary above, this would give them an overall passing rate of around 65%.
+4. The replacement has minor effects on the results of "scores by school spending", "scores by school size," and "scores by school types" based on our analysis above. Because THS's size is small, comparing its student number with the one of the whole school district. However, it will influence the data in the categories that THS belongs to, such as the "scores by school spending" at the $631 to $645 range and the charter type performance in "scores by school type."
+5. The replacement had minimal impact on "Scores by Grade" because it only changed the 9th grade's scores of Thomas High School, but nothing else changed in this DataFrame.
 
